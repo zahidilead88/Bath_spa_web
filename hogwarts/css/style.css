@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 80vh;
+    width: 100%;
+    float: left;
+    background-image: url(../images/banner.jpg);
+    background-size: 100% auto;
+}
+header h1 {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10rem auto 0;
+    font-size: 5rem;
+    color: aliceblue;
+    text-align: center;
+}
+nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 3rem;
+}
+nav ul {
+    display: flex;
+    /* gap: 1rem; */
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    
+    color: #fff;
+    line-height: 36px;
+}
+nav ul li > * {
+    /* flex: 1; */
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+.contaioner{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.contaioner > * {
+    flex: 1;
+} 
+.whyus {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+
+}
+.d-img {
+    /* width: 100%; */
+    float: left;
+}
+.d-img img {
+    width: 100%;
+}
+.d-tex {
+    /* width: 100%; */
+}
+.d-tex p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin: 1rem auto;
+}
+
+.testi-con {
+    width: 100%;
+    float: left;
+}
+.testi-con h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+.testi-con p {
+    font-size: 1rem;
+    text-align: center;
+}
+.testi-con p span {
+    margin: 2rem auto;
+    font-style:italic;
+}
